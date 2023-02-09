@@ -9,7 +9,7 @@ public class Main {
         for (ClasseMae classe: classes) {
             classe.metodo1();
         }
-        
+
         System.out.println("");
 
         for (ClasseMae classe: classes) {
@@ -18,6 +18,7 @@ public class Main {
 
         System.out.println("");
 
+        // trabalhando diretamente com o tipo, ocorre sobreescrita
         ClasseFilha2 classeFilha2 = new ClasseFilha2();
         classeFilha2.metodo2();
     }
