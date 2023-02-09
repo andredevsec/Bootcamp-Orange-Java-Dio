@@ -5,10 +5,11 @@ public class Main {
         
         ClasseMae[] classes = new ClasseMae[] {new ClasseFilha1(), new ClasseFilha2 (), new ClasseMae() };
 
+        // polimorfico
         for (ClasseMae classe: classes) {
             classe.metodo1();
         }
-
+        
         System.out.println("");
 
         for (ClasseMae classe: classes) {
